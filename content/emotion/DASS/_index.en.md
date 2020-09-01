@@ -1,5 +1,5 @@
 ---
-title: "抑郁-焦虑-压力量表"
+title: "抑郁-焦虑-应激量表"
 date: 2020-08-28T22:00:00+06:00
 lastmod: 2020-07-28T22:00:00+06:00
 weight: 1
@@ -9,7 +9,7 @@ keywords: ["DASS","抑郁",“焦虑”,"压力","应激"]
 ---
 ## 量表简介
 
-抑郁-焦虑-压力量表（Depression-Anxiety-Stress Scale, DASS）包含42题（DASS-42）和21题（DASS-21）两个版本。就21题版本而言，抑郁、焦虑、压力分别采用7道题进行测量。DASS的中文版包括多个版本，下文一并呈现。
+抑郁-焦虑-应激量表（Depression-Anxiety-Stress Scale, DASS）由Lovibond和Lovibond (1995)编制，包含42题（DASS-42）和21题（DASS-21）两个版本。就42题版本而言，抑郁、焦虑、应激分别采用14道题进行测量;就21题版本而言，抑郁、焦虑、应激分别采用7道题进行测量。DASS的中文版包括多个版本，下文一并呈现。
 
 ## DASS-21
 
@@ -73,9 +73,9 @@ keywords: ["DASS","抑郁",“焦虑”,"压力","应激"]
 
 焦虑（Anxiety）: 2, 4, 7, 9, 15, 19, 20
 
-压力（Stress）: 1, 6, 8, 11, 12, 14, 18
+应激（Stress）: 1, 6, 8, 11, 12, 14, 18
 
-**注**：理论上，题项13“我感到忧郁沮丧”属于抑郁（Depression）这个维度。但Wang等人(2016)的验证性因子分析表明，题项13更可能属于压力（Stress）这个维度。
+**注**：理论上，题项13“我感到忧郁沮丧”属于抑郁（Depression）这个维度。但Wang等人(2016)的验证性因子分析表明，题项13更可能属于应激（Stress）这个维度。尽管stress可以翻译成压力，但笔者阅读stress维度下的题项后认为，该量表中的stress翻译成“应激”更好。
 
 ## DASS-42香港繁体中文版
 
@@ -146,7 +146,7 @@ keywords: ["DASS","抑郁",“焦虑”,"压力","应激"]
 
 焦虑（Anxiety）: 2, 4, 7, 9, 15, 19, 20, 23, 25, 28, 30, 36, 40, 41
 
-压力（Stress）: 1, 6, 8, 11, 12, 14, 18, 22, 27, 29, 32, 33, 35, 39
+应激（Stress）: 1, 6, 8, 11, 12, 14, 18, 22, 27, 29, 32, 33, 35, 39
 
 ## DASS-42台湾繁体中文版
 
@@ -218,6 +218,8 @@ keywords: ["DASS","抑郁",“焦虑”,"压力","应激"]
 同香港繁体中文版。
 
 ## 参考文献
+
+Lovibond, S.H. & Lovibond, P.F. (1995).  *Manual for the Depression Anxiety Stress Scales* (2nd. Ed.).  Sydney: Psychology Foundation. www.psy.unsw.edu.au/dass/
 
 Wang, K., Shi, H.-S., Geng, F.-L., Zou, L.-Q., Tan, S.-P., Wang, Y., Neumann, D. L., Shum, D. H. K., & Chan, R. C. K. (2016). Cross-cultural validation of the Depression Anxiety Stress Scale–21 in China. *Psychological Assessment, 28*(5), e88–e100. https://doi.org/10.1037/pas0000207
 
