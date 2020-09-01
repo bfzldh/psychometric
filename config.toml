@@ -1,0 +1,206 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://academy.psychometric.site/"
+# theme
+theme = "dot"
+# site title
+title = "Academy of Psychometric Site"
+# disable language
+disableLanguages = []
+# google analytics
+googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = ""
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = ""
+# when logo is empty, it will shown your site title
+
+# customize color
+primary_color = "#02007e"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "https://formspree.io/myynvzvv" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
+link = "mailto:qingyaozhang@yeah.net"
+
+#[[params.social]]
+#icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+
+#[[params.social]]
+#icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+  
+#[[params.social]]
+#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+  
+#[[params.social]]
+#icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "Copyright © [Psychometric Site](https://academy.psychometric.site/) 2020"
+
+# banner
+[Languages.en.params.banner]
+title = "Academy of Psychometric Site"
+subtitle = "To be a complete collection of Chinese psychometric tools"
+bg_image = "images/Everest.jpg"
+placeholder = "Look for a tool? Just type here..."
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find the psychometric tool your like?"
+content = "You are very welcome to share or request a new psychometric tool!"
+# call to action button
+[Languages.en.params.cta.button]
+enable = true
+label = "contact us"
+link = "contact"
+
+
+################## english navigation #################
+# Dropdown menu
+[[Languages.en.menu.main]]
+weight = 1
+name = "scale"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "scale"
+  name = "Cognition"
+  url = "cognition"
+  weight = 11
+      
+  [[Languages.en.menu.main]]
+  parent = "scale"
+  name = "Emotion"
+  url = "emotion"
+  weight = 12
+
+  [[Languages.en.menu.main]]
+  parent = "scale"
+  name = "Behavior"
+  url = "behavior"
+  weight = 13
+
+  [[Languages.en.menu.main]]
+  parent = "scale"
+  name = "Trait"
+  url = "trait"
+  weight = 14
+  
+[[Languages.en.menu.main]]
+weight = 2
+name = "Tech"
+url = "tech"
+hasChildren = true
+
+[[Languages.en.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Support Us"
+url = "support"
+weight = 5
+
+
+################################### Chinese Language ######################
+[Languages.zh]
+languageName = "Zh"
+languageCode = "zh-cn"
+weight = 2
+copyright = "Copyright © [心理测验网](https://academy.psychometric.site/) 2020"
+
+# banner
+[Languages.zh.params.banner]
+title = "心理测验网 学术"
+subtitle = "将中文心理测验一网打尽"
+bg_image = "images/Everest.jpg"
+placeholder = "在寻找心理测验？在这里输入……"
+
+# call to action
+[Languages.zh.params.cta]
+enable = true
+title =  "没有找到您想要的工具？"
+content =  "欢迎推荐新的心理测验！"
+# call to action button
+[Languages.zh.params.cta.button]
+enable = true
+label = "联系我们"
+link = "contact"
+
+
+################## Chinese navigation #################
+# Dropdown menu
+[[Languages.zh.menu.main]]
+weight = 1
+name = "量表"
+hasChildren = true
+
+  [[Languages.zh.menu.main]]
+  parent = "量表"
+  name = "认知"
+  url = "cognition"
+  weight = 11
+      
+  [[Languages.zh.menu.main]]
+  parent = "量表"
+  name = "情感"
+  url = "emotion"
+  weight = 12
+
+  [[Languages.zh.menu.main]]
+  parent = "量表"
+  name = "行为"
+  url = "behavior"
+  weight = 13
+
+  [[Languages.zh.menu.main]]
+  parent = "量表"
+  name = "特质"
+  url = "trait"
+  weight = 14
+  
+[[Languages.zh.menu.main]]
+weight = 2
+name = "技术"
+url = "tech"
+hasChildren = true
+
+[[Languages.zh.menu.main]]
+name = "常见问题"
+url = "faq"
+weight = 3
+
+[[Languages.zh.menu.main]]
+name = "支持我们"
+url = "support"
+weight = 5

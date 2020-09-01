@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta charset="utf-8">
+  <title>Academy of Psychometric Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="generator" content="Hugo 0.74.3" />
+  
+  <!-- ** CSS Plugins Needed for the Project ** -->
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --body-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+    --light-color:#f8f9fa;
+    --font-family:Lato;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link href="/css/style.min.css" rel="stylesheet" media="screen"/>
+  
+<!-- ** JS Plugins Needed for the Project ** -->
+
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+
+
+</head>
+  
+  <body>
+    
+    <!-- header -->
+    <header class="banner overlay bg-cover" data-background="/images/Everest.jpg">
+      <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/zh">
+      
+      
+      
+      Academy of Psychometric Site
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            量表
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="/zh/cognition">认知</a>
+            
+            <a class="dropdown-item" href="/zh/emotion">情感</a>
+            
+            <a class="dropdown-item" href="/zh/behavior">行为</a>
+            
+            <a class="dropdown-item" href="/zh/trait">特质</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/zh/tech">技术</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/zh/faq">常见问题</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/zh/support">支持我们</a>
+        </li>
+        
+        
+      </ul>
+      
+      <select class="lang-list " id="select-language"
+        onchange="location = this.value;">
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="en" value="/">En</option>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="zh" value="/zh/" selected>Zh
+        </option>
+        
+        
+        
+        
+      </select>
+      
+    </div>
+  </div>
+</nav>
+      <!-- banner -->
+<div class="container section">
+	<div class="row">
+		<div class="col-lg-8 text-center mx-auto">
+			<h1 class="text-white mb-3">心理测验网 学术</h1>
+			<p class="text-white mb-4">将中文心理测验一网打尽</p>
+			<div class="position-relative">
+				<input id="search" class="form-control" placeholder="在寻找心理测验？在这里输入……">
+				<i class="ti-search search-icon"></i>
+				
+				
+				
+				
+				<script>
+					$(function() {
+					var projects = [
+						
+						{
+							value: "抑郁-焦虑-压力量表",
+							label: "<p>量表简介 抑郁-焦虑-压力量表（Depression-Anxiety-Stress Scale, DASS）包含42题（DASS-42）和21题（DASS-21）两个版本。就21题版本而言，抑郁、焦虑、压力分别采用7道题进行测量。DASS的中文版包括多个版本，下文一并呈现。\nDASS-21 简体中文版指导语 请阅读以下各项，然后根据过去一周之内符合您的实际情况，在相应的数字（0， 1，2 或3）上打勾。您的回答没有对错之分，所以请不要在以下任何一项上花太多时间。打分等级介绍如下：\n0=表示此项根本不符合我的情况；\n1=表示此项在某种程度上或是某些时候与我的实际情况相符；\n2=表示此项在很大程度上或是大部分情况下与我的实际情况相符；\n3=表示此项与我的实际情况非常相符。\n繁体中文版指导语 請小心閱讀以下每一個句子，並在其右方圈上一數字，表示「過往一個星期」如何適用於你。答案並無對錯之分。請不要花太多時間在某一句子上。\n評估量表：\n0＝不適用\n1＝頗適用，或間中適用\n2＝很適用，或經常適用\n3＝最適用，或常常適用\n题项    题号 题项     1 我觉得很难让自己安静下来   2 我感到口干   3 我好像不能再有任何愉快、舒畅的感觉   4 我感到呼吸困难（例如不是做运动时也感到呼吸急促或透不过气来）   5 我感到很难自动去开始工作   6 我对事情往往做出过敏反应   7 我曾感到颤抖（例如：手打哆嗦）   8 我觉得自己消耗很多精神   9 我忧虑一些令自己恐慌或出丑的场合   10 我觉得自己对将来没有什么可盼望   11 我感到忐忑不安   12 我感到很难让自己放松   13 我感到忧郁沮丧   14 我无法容忍任何阻碍我继续工作的事情   15 我感到快要恐慌了   16 我对任何事也不能热衷   17 我觉得自己不怎么配做人   18 我发觉自己很容易被触怒   19 我察觉自己在没有明显的体力劳动时，也感到心律不正常   20 我无缘无故地感到害怕   21 我感到生命毫无意义    注：该简体中文版来自期刊论文Wang等人(2016)的补充材料，来源可靠。但是，其给出的官网地址(http:\/\/www2.psy.unsw.edu.au\/groups\/dass\/Chinese\/tmhc.htm)提供的不是简体中文版，而是繁体中文版(Taouk, Lovibond, \u0026amp; Laube, 2001)。经比较，简体版本和繁体版本除了字体、计分尺度表述方式不同外，题项表述方式没有任何区别。如官网所标注，该21题版本实际源于香港Dr. Calais Chan翻译的繁体中文版，因此该版本可能有一些繁体中文的表述特点。阅读之后，我认为整体上这些表述是通顺易懂的。仅题项16“我对任何事也不能热衷”，在简体中文中调整为“我对任何事都不能热衷”或许更好。\n维度计算 抑郁（Depression）: 3, 5, 10, 13, 16, 17, 21\n焦虑（Anxiety）: 2, 4, 7, 9, 15, 19, 20\n压力（Stress）: 1, 6, 8, 11, 12, 14, 18\n注：理论上，题项13“我感到忧郁沮丧”属于抑郁（Depression）这个维度。但Wang等人(2016)的验证性因子分析表明，题项13更可能属于压力（Stress）这个维度。\nDASS-42香港繁体中文版 该量表是香港Dr. Calais Chan修订得到的繁体中文版，来源可靠http:\/\/www2.psy.unsw.edu.au\/dass\/\/Chinese\/Chinese.htm。参考文献不明。\n填表說明 請小心閱讀以下每一句子，並在其右方圈上一數字，表示在「過往一星期」如何適用於你。請不要花太多時間在某一句子上。\n評估量表：\n0 = 不適用\n1 = 頗適用，或間中適用\n2 = 很適用，或經常適用\n3 = 最適用，或常常適用\n   題號 題項     1 我發覺自己為很細微的事而煩惱   2 我感到口乾   3 我好像不能再有愉快、舒暢的感覺   4 我感到呼吸有困難 （例如呼吸過促，氣喘）   5 我真的好像提不起勁   6 我對事情往往作出過敏反應   7 我感到身體打震（如有腳軟的感覺）   8 我感到很難放鬆自己   9 我發覺自己在某些場合非常緊張，極渴望立刻離開，鬆一口氣   10 我覺得自己沒有甚麼可盼望將來   11 我發覺自己很容易感到不快   12 我覺得自己消耗很多精神   13 我感到憂愁悲哀   14 若受到阻延（例如交通擠塞），我會感到很不耐煩   15 我有暈眩的感覺   16 我感到對所有事情都失去興趣   17 我覺得自己不怎麼配做人   18 我發覺自己很容易被觸怒   19 我無故流汗（例如手腳冒汗)   20 我無緣無故地感到害怕   21 我感到生命沒有價值   22 我覺得很難讓自己安靜下來   23 我感到吞嚥困難   24 我覺得不能從所作的事取得樂趣   25 我平時也感覺到心跳或心律不正常   26 我感到憂鬱沮喪   27 我感到自己很容易煩躁   28 我感到快要恐慌了   29 受了刺激後，我感到很難去平伏自己   30 我害怕被一些瑣碎而不熟識的事情難倒   31 我對任何事也不能熱衷   32 我很難忍受工作時的障礙   33 我神經緊張   34 我覺得自己很無價值   35 我無法容忍那阻礙我繼續工作的事情   36 我感到驚惶   37 我對未來完全失去希望   38 我感到生命毫無意義   39 我感到忐忑不安   40 我憂慮一些令自己恐慌或出醜的場合   41 我感到顫抖（例如手震）   42 我感到很難去開始工作    维度计算 抑郁（Depression）: 3, 5, 10, 13, 16, 17, 21, 24, 26, 31, 34, 37, 38, 42\n焦虑（Anxiety）: 2, 4, 7, 9, 15, 19, 20, 23, 25, 28, 30, 36, 40, 41\n压力（Stress）: 1, 6, 8, 11, 12, 14, 18, 22, 27, 29, 32, 33, 35, 39\nDASS-42台湾繁体中文版 该量表是台湾Lu Hui Chun修订得到的繁体中文版，来源可靠http:\/\/www2.psy.unsw.edu.au\/dass\/\/Chinese\/Chinese.htm，参考文献不明。\n指导语 請閱讀以下每個句子，並在其右方圈選一個數字 0、1、2 或是 3，表示在「過去這一星期中」最適合於你的描述。答案沒有對錯，請不要花太多時間思考句子。\n量表數字意義如下：\n0 = 一點都不適用\n1 = 偶爾適用，或還可適用\n2 = 很適用，或經常適用\n3 = 非常適用，或最適用\n题项    題號 題項     1 我發覺自己為瑣事而煩惱   2 我感到口乾舌燥   3 我好像不會再有愉快的感覺   4 我覺得呼吸困難(例如呼吸急促，在無激烈運動時，也會上氣不接下氣)   5 我就是提不起勁   6 我對事情往往過度反應   7 我感覺震顫（例如有腳軟的感覺）   8 我很難放鬆自己   9 我曾身處令我非常焦慮的狀況中，當它們結束時，我覺得如釋重負   10 我覺得沒甚麼事情可期待的   11 我覺得自己容易變得不快樂   12 我覺得自己消耗很多精神   13 我感到哀傷憂鬱   14 若行事受到阻礙（例如交通擠塞），我會很不耐煩   15 我有暈眩的感覺   16 我幾乎對所有事情都失去興趣   17 我覺得自己不怎麼配做人   18 我覺得自己很容易被觸怒   19 我會無緣無故地流汗（例如手腳冒汗)   20 我無緣無故地感到害怕   21 我感到生命沒有價值   22 我覺得很難讓自己放鬆下來   23 我感到吞嚥困難   24 我覺得不能從所作的事得到樂趣   25 沒有運動時，我也會感覺心悸或心律不整   26 我感到沮喪憂鬱   27 我覺得自己容易煩躁不安   28 我覺得要變成恐慌症了   29 當我失望或被激怒後，我感覺很難平復   30 我害怕被一些瑣碎而不熟識的事情難倒   31 我對任何事都無法熱衷   32 我難以忍受工作時被打斷   33 我覺得神經緊張   34 我覺得自己很沒有價值   35 我無法容忍會阻礙我繼續工作的任何事情   36 我感到驚惶失措   37 我對未來失去希望   38 我感到生命毫無意義   39 我感到忐忑不安   40 我憂慮一些令自己恐慌或出醜的狀況   41 我感到顫抖（例如雙手發抖）   42 我覺得很難找到動力去工作    維度計算 同香港繁体中文版。\n参考文献 Wang, K., Shi, H.-S., Geng, F.-L., Zou, L.-Q., Tan, S.-P., Wang, Y., Neumann, D. L., Shum, D. H. K., \u0026amp; Chan, R. C. K. (2016). Cross-cultural validation of the Depression Anxiety Stress Scale–21 in China. Psychological Assessment, 28(5), e88–e100. https:\/\/doi.org\/10.1037\/pas0000207\nTaouk, M., Lovibond, P.F. \u0026amp; Laube, R. (2001). Psychometric properties of a Chinese version of the short Depression Anxiety Stress Scales (DASS21). Report for New South Wales Transcultural Mental Health Centre, Cumberland Hospital, Sydney. The test itself is in the public domain (http:\/\/www2.psy.unsw.edu.au\/groups\/dass\/Chinese\/tmhc.htm)\n</p><p>DASS</p><p>抑郁</p><p>“焦虑”</p><p>压力</p><p>应激</p>",
+							url:"\/zh\/emotion\/dass\/"
+						},
+						
+						{
+							value: "幸福生活信念量表",
+							label: "<p>量表简介 幸福生活信念指的是人们对于幸福生活、好的生活的信念，即对于“什么样的生活是幸福生活”的信念。幸福生活信念量表(The Beliefs About Well-Being Scale)由McMahan和Estes(2011)编制，由Jen(2017)翻译为中文版。\n量表内容 指导语 体验幸福生活以及美好人生的因素有很多，对此人们的观点也不尽相同。请根据您自身的实际情况，针对下列体验幸福生活和美好人生的因素，按照它们的必要程度在相应数字上面打勾。\n计分尺度    非常不同意   不是非常不同意，也不是非常同意   非常同意     1 2 3 4 5 6 7    题项 幸福生活以及美好人生必须包括：\n   题号 题项     1. 有许多的愉悦体验   2. 体验到大量的感官快乐   3. 过着一种有益他人的生活方式(#调整为“以有益他人的方式生活”。)   4. 没有遇到烦恼(#参考题项7中文翻译，调整为“没有烦恼”。)   5. 让世界因我变得更美好   6. 个人的最大潜力得以发挥(#调整为“为实现个人的真正潜能而努力”。)   7. 没有负面的情绪体验(#该题项的英文表述方式与题项4一致，题项4基本上是对译，而该题项为意译。)   8. 发现并培养自己的长处   9. 体验到兴高采烈   10. 在集体中有积极正面的影响力   11. 尽力战胜生活中的挑战   12. 心情舒畅的体验(#翻译方式有启发。)   13. 为社会做出贡献   14. 没有不愉快的生活体验(#量表中多次出现pleasure，作者的翻译方式多样。这个地方的lack翻译成“没有”不准确，题项16翻译成“缺乏”在词性上不合适，“缺乏”一般是贬义，一般用于描述缺少好的东西。这里调整为“不愉快的体验较少”。)   15. 较强的自我觉察能力(#调整为“充分的自我了解”。)   16. 缺乏经历痛苦的生活体验(#调整为“痛苦的体验较少”。)    注：#后面为张庆垚添加的注释和修改意见。这些修改意见尚未进行信效度检验。\n维度计算 Experience of pleasure (BWBS-EP): 1, 2, 9, 12.\nAvoidance of negative experience (BWBS-ANE): 4, 7, 14, 16.\nSelf-development (BWBS-SD): 6, 8, 11, 15.\nContribution to others (BWBS-CO): 3, 5, 10, 13.\n参考文献 McMahan, E. A., \u0026amp; Estes, D. (2011). Measuring lay conceptions of well-being: The beliefs about well-being scale. Journal of Happiness Studies, 12(2), 267-287.\nJen, A. (2017). Exploring lay conceptions of well-being and their relationship to experienced well-being in chinese undergraduate students (Order No. 10602336). Available from ProQuest Dissertations \u0026amp; Theses Global. (1936376619). Retrieved from https:\/\/search.proquest.com\/docview\/1936376619?accountid=14553\n</p><p>Beliefs About Well-Being</p><p>幸福生活信念</p><p>“幸福”</p>",
+							url:"\/zh\/cognition\/well-beingbeliefs\/"
+						},
+						
+						{
+							value: "坚毅量表",
+							label: "<p>量表简介 坚毅(Grit)是对长期目标的热爱(Passion)和坚持(Perseverance),是影响个体成功的重要非智力因素. Duckworth等人(2007)编制了包含12个题项的坚毅量表，用6个题项分别测量热爱(Passion)和坚持(Perseverance).Duckworth等人(2009)后来又将该量表精简为8个题项的坚毅短版量表(Grit-S).\n笔者对中文版坚毅量表进行了搜索，发现了两个公开可得的中文版本，它们分别是官群等人(2015)翻译的12题版本和魏怡等人(2017)翻译的8题短版.笔者推荐魏怡等人(2017)翻译的版本.\n魏怡等人(2017)的8题版本 采用李克特5点评分, 从“十分像我”到 “一点也不像我”.\n   题号 题项     1* 新的想法和计划有时会使我从原先的项目中分心.   2 挫折不能使我气馁.   3* 我曾经陷入过某个想法或计划但短时之后就失去了兴趣.   4 我是一个努力工作的人.   5* 我经常开始一个目标但之后却选择去追求另外一个.   6* 我很难把焦点集中在那些需要几个月才能完成的计划上.   7 我会完成我开始做的事情.   8 我很勤奋.    注：*反向计分.\n官群等人(2015)的12题版本 计分规则是1-5级打分, 5表示非常像我, 1表示不像我.\n   题号 题项     1 我曾经克服过重大挑战性的困难.   2* 新观点和新项目干扰我完成原来的要做的事情.   3* 我做事的兴趣每年都在变化.   4 困难不能令我泄气.   5* 我对一个观点或项目会着迷一小段时间，然后失去兴趣.   6 我是一个努力工作学习的人.   7* 我经常设定目标， 但后来会改变主意完成不同的目标去了.   8* 对于一项耗时几个月的任务我的注意力很难集中.   9 只要我开始做的事情我就一定能够完成它.   10 我曾经花费多年完成一个目标.   11* 每隔几个月我会对新的事物感兴趣.   12 我是个勤奋的人.    注：*反向计分.\n参考文献 Duckworth, A. L., Peterson, C., Matthews, M. D., \u0026amp; Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92(6), 1087–1101. https:\/\/doi.org\/10.1037\/0022-3514.92.6.1087\nDuckworth, A.L, \u0026amp; Quinn, P.D. (2009). Development and validation of the Short Grit Scale (GritS). Journal of Personality Assessment, 91, 166-174.\n官群, 薛琳, \u0026amp; 吕婷婷. (2015). 坚毅和刻意训练与中国大学生英语成就的关系. 中国特殊教育, 12, 78-82.\n魏怡, \u0026amp; 胡军生. (2017). 坚毅性人格: 概念结构, 影响因素及作用结果. 心理技术与应用, 5(1), 52-61.\n</p><p>Grit</p><p>坚毅</p>",
+							url:"\/zh\/trait\/grit\/"
+						},
+						
+						{
+							value: "亲密关系体验-人际结构量表",
+							label: "<p>量表简介 亲密关系体验-人际结构量表（Experiences in Close Relationships–Relationship Structures scale，ECR-RS）仅包含9个题项，其中3个题项用来测量依恋焦虑，6个题项用来测量依恋回避。将相应的指导语进行调整之后，该量表可以用来评估不同人际关系中的依恋。该量表既可以测量特质依恋，也可以用来测量状态依恋。张庆垚(2017)在硕士毕业论文《照料动机,依恋对外群体偏见的影响》中使用中文版ECR-RS评估成人的亲子关系、同伴关系、浪漫关系，研究表明该量表信效度表现良好。张庆垚（2020）又采用回译的程序对该量表进行了进一步的完善，并用完善后的量表评估小学3-6年级学生、初中生、高中生的亲子关系、同伴关系和师生关系。在该研究中，中文ECR-RS的alpha信度、重测信度、二阶因子结构、横断测量衡等（跨性别，跨人际关系，跨年级）、纵向测量衡等（时间间隔6个月）、同时信度（concurrent validity）、纵向预测信度（longitudinal predictive validity）得到了不同程度的支持。张庆垚计划在后续研究中继续改善中文ECR-RS依恋回避维度的心理测量学属性。\n量表内容 下方的指导语和题项以母子关系为评估对象。若需评估其他人际关系，请调整指导语和题项表述。\n指导语 下面给出的句子描述了每个人在亲密关系中可能会有的感觉，亲密关系包括你与父母、好朋友等重要人物的关系。总体而言这些情况在多大程度上与你相符？首先，请根据与母亲（或像母亲一样的人）的交往过程中常常体验到的感受，从七个选项中选出最符合你实际情况的选项。\n1=非常不符, 2=不符合, 3=比较不符, 4=不确定, 5=比较符合, 6=符合, 7=非常符合\n题项    题号 中文题项 英文题项     1 我不喜欢向她袒露自己内心深处的感受。 I prefer not to show her how I feel deep down.   2 我担心她不会像我在乎她那样在乎我。 I worry that she won\u0026rsquo;t care about me as much as I care about her.   3 我发现依靠她是件容易的事。 I find it easy to depend on her.(R)   4 我会就某些事与她进行协商。 I talk things over with her. (R)   5 我害怕她会抛弃我。 I\u0026rsquo;m afraid that she may abandon me.   6 在需要的时候，我向她求助是有用的。 It helps to turn to her in times of need.(R)   7 我常常担心她不是真地喜欢我。 I often worry that she does not really care for me.   8 向她敞开心扉会让我觉得不舒服。 I don\u0026rsquo;t feel comfortable opening up to her.   9 我经常与她谈论我所遇到的问题以及我关心的事情。 I usually discuss my problems and concerns with her.(R)    注. (R) = 反向计分（Reverse coding）.\n量表来源 该量表由张庆垚提供。\n参考文献 Fraley, R. C., Heffernan, M. E., Vicary, A. M., \u0026amp; Brumbaugh, C. C. (2011). The Experiences in Close Relationships-Relationship Structures questionnaire: A method for assessing attachment orientations across relationships. Psychological Assessment, 23(3), 615-625.\nZhang, Q. (2017). Caregiving motivation, attachment, and out-group bias (Master’s thesis, Shaanxi Normal University, Xi’an, China). Available from http:\/\/cdmd.cnki.com.cn\/Article\/CDMD-10718-1018059617.htm\nZhang, Q., Hou, Z., Fraley, RC., Hu, Y., Zhang, X., Zhang, J., \u0026amp; Guo, X. (2020, August 6-8). Validating the Experiences in Close Relationships–Relationship Structures scale among Chinese children and adolescents [Poster presentation]. 2020 Annual American Psychological Association (APA) Convention, Washington, D.C..\n待更新……\n</p><p>Experiences in Close Relationships–Relationship Structures scale</p><p>ECR-RS</p><p>依恋</p><p>亲子关系</p><p>同伴关系</p><p>情侣</p><p>浪漫关系</p><p>师生关系</p>",
+							url:"\/zh\/trait\/ecr-rs\/"
+						},
+						
+						{
+							value: "欺凌参与行为问卷",
+							label: "<p>量表简介 卷入到校园欺凌事件的学生不仅仅包含欺凌者和受害者，也包含协助者(协助欺凌者的学生)、局外人(袖手旁观的学生)、捍卫者(捍卫受害者的学生)。为了有效减少校园欺凌，为了有效提高卷入到校园欺凌事件的所有学生的身心健康，我们有必要对卷入到校园欺凌事件的多种角色进行调查。为此，我们需要一个能有效评估多种校园欺凌参与行为的测量工具。校园欺凌参与行为问卷(Bullying Participant Behaviors Questionnaire, BPBQ)可以满足这一需要(Demaray, Summers, Jenkins, \u0026amp; Becker, 2016)。张庆垚等人(2019)基于中国3-12年级的学生对该量表进行了翻译和修订，证明中文版BPBQ的信效度良好。交叉滞后模型的结果表明，不同的欺凌参与行为(欺凌者、协助者、受害者、局外人、捍卫者)与大五人格和心理健康可以相互预测。\n量表内容 指导语 自本学期开学以来, 下列行为发生在你身上的频率如何? 请从五个选项中选出最符合你实际情况的选项.\n0=从未发生, 1=很少发生, 2=有时发生, 3=经常发生, 4=总是发生.\n维度和题项 Bully(欺凌者)  I have called another student bad names (我曾向别人骂脏话). I have made fun of another student (我曾取笑过某个人). I have purposely left out another student (我曾故意将某个人排除在一些事情之外[例如, 我不通知他[她]参加班级聚会])\t. I have ignored another studentc (我曾无视过某人). I have pushed, punched, or slapped another student (我曾推搡、拳打、脚踢或掌掴过某人). I have bumped into another student on purposec (我曾故意撞某人). I have told lies about another student (我曾说过有关某个人的谎话). I have tried to make people dislike another student (我曾尽力让人们不喜欢某个人). I have stolen things from another student (我曾拿走或偷过某个人的东西). I have damaged or broken something that was another student’sc (我曾故意损坏某人的东西). I have verbally threatened another studentc (我曾口头威胁过某人). I have made another student do things they didn’t want to doc (我曾胁迫某人做他[她]自己不想做的事). I have thrown things at another student (我曾朝某个人扔过东西)\t. I have tripped another student on purposec (我曾故意绊倒某人)\t. I have said bad things about another student (我曾说过某个人的坏话). I have talked about someone behind their back (我曾在某人背后说过他[她]的闲话).  Assistant(协助者) When someone else has started spreading rumors, I joined inc (当某人传播别人的谣言时，我也跟着去传播谣言)\t. When someone was ignoring another student, I joined inc (当某人无视别人时，我跟着他[她]一起这样做). When someone was being pushed, punched, or slapped, I stopped to watchc (当某人被推搡、拳打、脚踢或掌掴时，我停下手头的事去围观). When someone else has started pushing or shoving a student, I joined inc (当某人挤别人时, 我跟着他[她]一起这样做). When someone was making fun of another student, I joined in (当某人取笑某个人时，我跟着他[她]一起这样做). When someone was verbally threatening another student, I joined in (当某人口头威胁别人时, 我跟着他[她]一起这样做). When someone was making a student do things they did not want to do, I joined inc (当某人强迫别人做别人自己不想做的事时, 我跟着他[她]一起这样做)\t. When someone else was telling lies about another student, I joined inc (当某人说有关别人的谎话时, 我跟着他[她]一起这样做)\t. When someone bumped into another person, I joined in (当某人撞别人时, 我跟着他[她]一起这样做). I have made fun of someone when they were pushed, punched, or slapped (当某人被推搡、拳打、脚踢或掌掴时，我取笑了他[她]). I have made fun of someone who was being called mean names (我取笑过某些被骂脏话的人). When someone else broke something that belonged to another student, I stopped to watch (当某人毁坏别人的东西时, 我停下手头的事去围观)\t. When someone else tripped another student on purpose, I laughed (当某人故意将别人绊倒时, 我在旁边笑了). When someone else knocked books out of another student’s hands on purpose, I laughed (当某人故意将另一个人手中的书打落时, 我在旁边笑了). When someone else pinched or poked another student, I joined in (当某人扭、拧、掐或戳别人时, 我跟着他[她]一起这样做). When someone else threw something at another student, I joined in (当某人朝另别人扔东西时, 我跟着他[她]一起这样做).  Victim(受害者) I have been called mean names (我曾被人骂过脏话). I have been made fun of (我曾被人取笑过). I have been purposely left out of something (我曾被人故意排除在一些事情之外). I have been ignored (我曾被人无视过). I have been pushed around, punched, or slapped (我曾被人推搡、拳打、脚踢或掌掴过). I have been pushed or shoved (我曾被人挤过). People have told lies about me (他人说过关于我的谎话). People have tried to make others dislike me (他人曾尽力让别人不喜欢我). I have been threatened by others (我曾被人威胁过)\t. People have damaged or broken something that was minec (他人曾破坏我的东西). I have had things taken from me (我的东西曾被别人拿走或偷走). People have made me do things I did not want to doc (他人曾强迫我做我不想做的事). I have been tripped by another student on purposec (我曾被人故意绊倒). I have had my books knocked out of my hands on purposec (他人曾故意将我手中的书打落). I have been pinched or pokedc (我曾被扭、拧、掐或戳). I have had something thrown at mec (他人曾朝我身上扔东西).  Defender(守卫者) I tried to make people stop spreading rumors about othersc (我曾努力阻止他人传播关于别人的谣言). When I saw someone being mean to others, I threatened to tell an adult if it didn’t stopc (当我看到某人欺负别人时，我威胁他[她]说，如果他[她]不住手，我会把事情告诉大人). I told someone that picking on others is mean and they should not do ita (我曾告诉某人，欺负别人是残忍的、不该欺负别人). I tried to make someone feel better after they were picked onc (我曾尽力安慰被欺负的人). I tried to become friends with someone after they were picked on (我曾尽力与某些被欺负的人成为朋友). I encouraged someone to tell an adult after they were picked on (我曾鼓励某些被欺负的人将事情告诉大人). I defended someone by telling people that a rumor is not truec (我曾通过告诉大家谣言是假的来保护某人). I defended someone who was being pushed, punched, or slapped (我保护过某些被推搡、拳打、脚踢或掌掴的人). When I saw someone being picked on, I told an adultc (当我看到某人被欺负时, 我把事情告诉了大人). I defended someone who had things purposely taken from them (我保护过某些东西被故意拿走或偷走的人). I defended someone who was being called mean names (我保护过某些被骂脏话的人). I tried to include someone if they were being purposely left out (我曾尽力阻止某些人被故意排除在一些事情之外). I helped someone who had their books knocked out of their hands on purpose (我帮助过某些书籍被人从手中故意打落的人). I helped someone who was purposely tripped (我帮助过某些被故意绊倒的人)\t0.89\t1.44 (1.10) When I saw someone being physically harmed, I told an adult (当我看到某人遭受身体上的伤害时，我告诉了大人[例如，家长，老师]). I defended someone who I thought was being tricked on purpose (我保护过某些我认为正被人故意欺骗或哄骗的人).  Outsider (局外人) I ignored lies people spread about other studentsc (我装作没有注意到他人散播的关于别人的谣言). I ignored it when I saw someone threatening another studentc (当我看到某人威胁别人时，我装作没有注意到). I pretended not to notice when another student was being pushed, punched, or slappedc (当某人被推搡、拳打、脚踢或掌掴时，我装作没有注意到). I pretended not to notice when things were taken or stolen from another student (当某人东西被拿走或偷走时，我装作没有注意到). I pretended not to notice when rumors were being spread about other students (当关于他人的谣言传播时, 我装作没有注意到). I ignored it when I saw someone making fun of another student (当某人取笑别人时, 我装作没有注意到). I pretended not to notice a situation that purposely left someone out (当某人被故意排除在一些事情之外时, 我装作没有注意到). I ignored it when someone was calling another student bad namesc (当某人朝别人骂脏话时, 我装作没有注意到). I ignored it when I saw someone breaking or damaging another student’s things (当我看到某人毁坏别人的东西时, 我装作没有注意到)\t. I have walked away when I saw someone else being picked onc (当我看到某人被欺负时, 我装作没有注意到). I pretended not to notice when someone else knocked the books out of another student’s hands on purposec (当某人故意将别人手中的书打落时, 我装作没有注意到). I pretended not to notice when someone else tripped another student on purpose (当某人故意将别人绊倒时, 我装作没有注意到). I ignored it when someone else pinched or poked another student (当某人扭、拧、掐或戳别人时，我装作没有注意到). I ignored it when some threw something at another student (当某人朝别人扔东西时, 我装作没有注意到). I ignored it when someone else tricked another student (当某人欺骗或哄骗别人时, 我装作没有注意到). I pretended not to notice when someone was destroying another student’s property (当某人毁坏别人的财物时, 我装作没有注意到).  使用者须注意BPBQ的英文版和中文版是不同的。BPBQ的英文最终版从80个初始题项中剔除了30个题项，因此BPBQ的英文最终版仅包含50个题项（每个维度包含10个题项）。但是，中文版BPBQ翻译并保留了BPBQ的所有80个初始题项，张庆垚的研究表明80个题项的中文版BPBQ信效度良好。另外，英文版和中文版采用的计分方式也不同。\n 参考文献 Demaray, M. K., Summers, K. H., Jenkins, L. N., \u0026amp; Becker, L. D. (2016). Bullying Participant Behaviors Questionnaire (BPBQ): Establishing a reliable and valid measure. Journal of school violence, 15(2), 158-188. https:\/\/doi.org\/10.1080\/15388220.2014.964801\nZhang, Qingyao \u0026amp; Hou, Zhijin \u0026amp; Zhang, Xiu \u0026amp; Zhang, Jingjuan \u0026amp; Hu, Yueyue \u0026amp; Guo, Xiaoluan \u0026amp; Zhou, Jiangping \u0026amp; Sun, Ying. (2019). Psychometric properties of the Chinese version of Bullying Participant Behaviors Questionnaire. https:\/\/doi.org\/10.13140\/RG.2.2.30708.40329\/1\n</p><p>Bullying Participant Behaviors Questionnaire</p><p>欺凌</p><p>旁观者</p><p>受害者</p><p>局外人</p><p>欺凌者</p><p>协助者</p><p>捍卫者</p>",
+							url:"\/zh\/behavior\/chinesebpbq\/"
+						},
+						
+						{
+							value: "关于",
+							label: "<p> Academy of Psychometric Site 由张庆垚(qingyaozhang@yeah.net)维护。\n </p><p></p>",
+							url:"\/zh\/about\/"
+						},
+						
+						{
+							value: "Academy of Psychometric Site",
+							label: "<p></p>",
+							url:"\/zh\/"
+						},
+						
+						{
+							value: "支持我们",
+							label: "<p>您可以通过以下方式为科研社区作出贡献。\n第一，如果您是测验的作者，我们邀请您通过Academy of Psychometric Site分享您的测验。您需要允许用户将您的测验免费用于非商业目的。请投稿至qingyaozhang@yeah.net。我们也邀请您提供您的收款方式用于接收用户的捐赠。\n第二，用户需要引用所用测验的来源文献，这将有助于提升测验作者的学术声誉。尽管对科研工作者来说这是基本的科研规范，但某些人做得并不好。\n第三，若测验作者提供了收款方式，您愿意且有能力，请考虑为测验作者捐款。\n 功成不必在我，功成必定有我。\n </p>",
+							url:"\/zh\/support\/"
+						},
+						
+						{
+							value: "认知",
+							label: "<p></p>",
+							url:"\/zh\/cognition\/"
+						},
+						
+						{
+							value: "情感",
+							label: "<p></p>",
+							url:"\/zh\/emotion\/"
+						},
+						
+						{
+							value: "技术",
+							label: "<p>有用的心理研究技术。\n</p>",
+							url:"\/zh\/tech\/"
+						},
+						
+						{
+							value: "特质",
+							label: "<p></p>",
+							url:"\/zh\/trait\/"
+						},
+						
+						{
+							value: "行为",
+							label: "<p></p>",
+							url:"\/zh\/behavior\/"
+						},
+						
+						{
+							value: "Categories",
+							label: "<p></p>",
+							url:"\/zh\/categories\/"
+						},
+						
+						{
+							value: "Tags",
+							label: "<p></p>",
+							url:"\/zh\/tags\/"
+						},
+						
+						{
+							value: "常见问题",
+							label: "<p>该网站如何处理版权问题？ 本网站发布的心理测验(量表，问卷)旨在用于学习、教学、科研等非商业性目的。本网站发布的所有测验的版权归相应版权方，如有侵权请联系我们删除。\n</p>",
+							url:"\/zh\/faq\/"
+						},
+						
+						{
+							value: "问题和建议",
+							label: "<p>请在下方提交您的问题和联系方式，该功能由Formspree支持。您也可以直接发送邮件至qingyaozhang@yeah.net.\n</p>",
+							url:"\/zh\/contact\/"
+						},
+						
+					];
+					$( "#search" ).autocomplete({
+						source: projects
+					})
+					.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+						return $( "<li>" )
+						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+						.appendTo( ul );
+					};
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /banner -->
+    </header>
+    <!-- /header -->
+    
+    
+
+  <!-- topics -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Find your answer by subject</h2>
+        </div>
+        <!-- topic-item -->
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="/zh/cognition/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-help icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">认知</h3>
+            <p class="mb-0">如何想</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="/zh/emotion/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-face-smile icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">情感</h3>
+            <p class="mb-0">感受如何</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="/zh/trait/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-user icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">特质</h3>
+            <p class="mb-0">怎样的人</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="/zh/behavior/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-panel icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">行为</h3>
+            <p class="mb-0">如何做</p>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- /topics -->
+
+  
+  
+  <!-- call to action -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section px-3 bg-white shadow text-center">
+          <h2 class="mb-4">没有找到您想要的工具？</h2>
+          <p class="mb-4">欢迎推荐新的心理测验！</p>
+          
+          
+          <a href="/zh/contact" class="btn btn-primary">联系我们</a>
+          
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /call to action -->
+  
+  
+
+
+    <!-- footer -->
+<footer class="section pb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8 text-md-left text-center">
+       <p class="mb-md-0 mb-4">Copyright © <a href="https://academy.psychometric.site/">心理测验网</a> 2020</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="mailto:qingyaozhang@yeah.net"><i class="ti-email"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+  </body>
+
+</html>
