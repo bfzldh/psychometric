@@ -64,15 +64,15 @@ keywords: ["CESD-R","抑郁"]
 
 CESD-R的20个题项测量了DSM-V中界定的抑郁的9种症状：
 
-- 症状一:悲伤(Sadness;Dysphoria): 2, 4, 6
-- 症状二:兴趣丧失(Loss of Interest, Anhedonia): 8, 10
-- 症状三:食欲衰退(Appetite): 1, 18
-- 症状四:睡眠障碍(Sleep): 5, 11, 19
-- 症状五:思考(Thinking / concentration):3, 20
-- 症状六:内疚,无价值感(Guilt, Worthlessness): 9, 17
-- 症状七:劳累,疲乏(tired,fatigue): 7, 16
-- 症状八:运动,烦乱(Movement,Agitation): 12, 13
-- 症状九:自杀意念(Suicidal ideation): 14, 15
+- [症状一]悲伤(Sadness;Dysphoria)：2, 4, 6
+- [症状二]兴趣丧失(Loss of Interest, Anhedonia)：8, 10
+- [症状三]食欲衰退(Appetite)：1, 18
+- [症状四]睡眠障碍(Sleep)：5, 11, 19
+- [症状五]思考(Thinking / concentration)：3, 20
+- [症状六]内疚,无价值感(Guilt, Worthlessness)：9, 17
+- [症状七]劳累,疲乏(tired,fatigue)：7, 16
+- [症状八]运动,烦乱(Movement,Agitation)：12, 13
+- [症状九]自杀意念(Suicidal ideation)：14, 15
 
 各选项对应的得分如下：a = 0, b = 1, c = 2, d = 3, e = 4。抑郁得分为CESD-R20个题项的总分。
 
