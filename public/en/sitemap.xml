@@ -33,6 +33,21 @@
   </url>
   
   <url>
+    <loc>/emotion/cesd-r/</loc>
+    <lastmod>2020-07-28T22:00:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/emotion/cesd-r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/emotion/cesd-r/"
+                />
+  </url>
+  
+  <url>
     <loc>/trait/grit/</loc>
     <lastmod>2020-07-28T13:00:00+06:00</lastmod>
     <xhtml:link
