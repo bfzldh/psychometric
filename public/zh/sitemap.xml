@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/zh/emotion/erq/</loc>
+    <lastmod>2020-07-28T22:00:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/emotion/erq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/emotion/erq/"
+                />
+  </url>
+  
+  <url>
     <loc>/zh/emotion/dass/</loc>
     <lastmod>2020-07-28T22:00:00+06:00</lastmod>
     <xhtml:link
