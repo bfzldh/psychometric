@@ -11,5 +11,5 @@ All the psychometric tools (scales, inventories) distributed through **Academy o
 {{</ faq >}}
 
 {{< faq "How to cite the contents of this site?" >}}
-If you just use the original measurement tools and do not , you should cite the source literature first, and it is welcomed but unnecessary to cite the **Academy of the Psychometric Site**. If you refer to the contents like advice or comments that is originally published on this site, please cite this site following the guidelines of the APA publication manual.
+If you just use the original measurement tools, you should cite the source literature first, and it is welcomed but unnecessary to cite the **Academy of the Psychometric Site**. If you refer to the contents like advice or comments that is originally published on this site, please cite this site following the guidelines of the APA publication manual.
 {{</ faq >}}
